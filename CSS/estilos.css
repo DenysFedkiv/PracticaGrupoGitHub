@@ -25,7 +25,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 10vh;
 }
 
 article {
@@ -34,21 +34,8 @@ article {
 
 .links {
     text-decoration: none;
-    color: white;
+    color: black;
     box-sizing: border-box;
-}
-
-#link1:hover {
-    border-bottom: 2px solid white;
-}
-
-#link2:hover {
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-}
-
-#link3:hover {
-    border-top: 2px solid white;
 }
 
 footer {
@@ -79,8 +66,24 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+.caps-prevCap {
+    background-image: url(../IMG/prevCap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .caps-nextCap a {
+    display: block;
+    height: 10vw;
+    width: 10vw;
+}
+.caps-prevCap a {
     display: block;
     height: 10vw;
     width: 10vw;
@@ -88,6 +91,9 @@ footer p {
 
 .caps-nextCap:has(a:hover) {
     background-image: url(../IMG/nextCapHover.png);
+}
+.caps-prevCap:has(a:hover) {
+    background-image: url(../IMG/prevCapHover.png);
 }
 
 .caps-whiteSpace {
@@ -100,6 +106,7 @@ footer p {
     padding: 3%;
     box-sizing: border-box;
     overflow: scroll;
+    font-size: large;
 }
 
 /* Capitulo 1 */
@@ -116,4 +123,14 @@ footer p {
 
 #cap1-cont:hover main header {
     background-color: black;
+}
+h1{
+    color: white;
+}
+#libro{
+    height: 30vh;
+    
+}
+#titulo1{
+    color:black;
 }
