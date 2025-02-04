@@ -12,10 +12,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8vw;
 }
+
 
 header h1 {
     margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-size: larger;
 }
 
 main {
@@ -78,6 +85,27 @@ footer p {
     align-items: center;
 }
 
+.inicio {
+    background-image: url(../IMG/inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-whiteSpace {
+    height: 10vh;
+    width: 10vh; 
+}
+
+.caps-head{
+    justify-content: space-between;
+}
+
 .caps-nextCap a {
     display: block;
     height: 10vw;
@@ -109,6 +137,14 @@ footer p {
     font-size: large;
 }
 
+.links-inicio{
+    height: 8vh;
+    width: 8vh;
+}
+
+.inicio:has(a:hover) {
+    background-image: url(../IMG/inicioHover.png);
+}
 /* Capitulo 1 */
 #cap1-main {
     flex-direction: row;
