@@ -43,7 +43,7 @@ article {
     box-sizing: border-box;
 }
 
-.links-caps:hover{
+.links-caps:hover {
     color: rgb(102, 94, 94);
     border-bottom: 3px solid rgb(102, 94, 94);
 }
@@ -76,6 +76,7 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
 .caps-prevCap {
     background-image: url(../IMG/prevCap.png);
     background-size: cover;
@@ -102,11 +103,15 @@ footer p {
 
 .inicio-whiteSpace {
     height: 10vh;
-    width: 10vh; 
+    width: 10vh;
 }
 
-.caps-head{
+.caps-head {
     justify-content: space-between;
+}
+
+.caps-head h1 {
+    font-size: calc(2vw + 2vh);
 }
 
 .caps-nextCap a {
@@ -114,6 +119,7 @@ footer p {
     height: 10vw;
     width: 10vw;
 }
+
 .caps-prevCap a {
     display: block;
     height: 10vw;
@@ -123,6 +129,7 @@ footer p {
 .caps-nextCap:has(a:hover) {
     background-image: url(../IMG/nextCapHover.png);
 }
+
 .caps-prevCap:has(a:hover) {
     background-image: url(../IMG/prevCapHover.png);
 }
@@ -140,7 +147,7 @@ footer p {
     font-size: large;
 }
 
-.links-inicio{
+.links-inicio {
     height: 8vh;
     width: 8vh;
 }
@@ -148,6 +155,7 @@ footer p {
 .inicio:has(a:hover) {
     background-image: url(../IMG/inicioHover.png);
 }
+
 /* Capitulo 1 */
 #cap1-main {
     flex-direction: row;
@@ -163,13 +171,17 @@ footer p {
 #cap1-cont:hover main header {
     background-color: black;
 }
-h1{
+
+h1 {
     color: white;
 }
-#libro{
+
+/* Inicio */
+#libro {
     height: 58vh;
-    
+
 }
-#titulo1{
-    color:black;
+
+#titulo1 {
+    color: black;
 }
