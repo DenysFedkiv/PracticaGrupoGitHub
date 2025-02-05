@@ -30,9 +30,7 @@ main {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 10vh;
 }
 
 article {
@@ -43,6 +41,11 @@ article {
     text-decoration: none;
     color: black;
     box-sizing: border-box;
+}
+
+.links-caps:hover{
+    color: rgb(102, 94, 94);
+    border-bottom: 3px solid rgb(102, 94, 94);
 }
 
 footer {
@@ -164,7 +167,7 @@ h1{
     color: white;
 }
 #libro{
-    height: 30vh;
+    height: 58vh;
     
 }
 #titulo1{
