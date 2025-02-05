@@ -12,10 +12,17 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 8vw;
 }
+
 
 header h1 {
     margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    font-size: larger;
 }
 
 main {
@@ -23,9 +30,7 @@ main {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 5vw;
 }
 
 article {
@@ -34,21 +39,13 @@ article {
 
 .links {
     text-decoration: none;
-    color: white;
+    color: black;
     box-sizing: border-box;
 }
 
-#link1:hover {
-    border-bottom: 2px solid white;
-}
-
-#link2:hover {
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-}
-
-#link3:hover {
-    border-top: 2px solid white;
+.links-caps:hover {
+    color: rgb(102, 94, 94);
+    border-bottom: 3px solid rgb(102, 94, 94);
 }
 
 footer {
@@ -80,7 +77,50 @@ footer p {
     align-items: center;
 }
 
+.caps-prevCap {
+    background-image: url(../IMG/prevCap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vw;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    background-image: url(../IMG/inicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10vh;
+    width: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-whiteSpace {
+    height: 10vh;
+    width: 10vh;
+}
+
+.caps-head {
+    justify-content: space-between;
+}
+
+.caps-head h1 {
+    font-size: calc(2vw + 2vh);
+}
+
 .caps-nextCap a {
+    display: block;
+    height: 10vw;
+    width: 10vw;
+}
+
+.caps-prevCap a {
     display: block;
     height: 10vw;
     width: 10vw;
@@ -88,6 +128,10 @@ footer p {
 
 .caps-nextCap:has(a:hover) {
     background-image: url(../IMG/nextCapHover.png);
+}
+
+.caps-prevCap:has(a:hover) {
+    background-image: url(../IMG/prevCapHover.png);
 }
 
 .caps-whiteSpace {
@@ -100,6 +144,16 @@ footer p {
     padding: 3%;
     box-sizing: border-box;
     overflow: scroll;
+    font-size: large;
+}
+
+.links-inicio {
+    height: 8vh;
+    width: 8vh;
+}
+
+.inicio:has(a:hover) {
+    background-image: url(../IMG/inicioHover.png);
 }
 
 /* Capitulo 1 */
@@ -116,4 +170,18 @@ footer p {
 
 #cap1-cont:hover main header {
     background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+/* Inicio */
+#libro {
+    height: 58vh;
+
+}
+
+#titulo1 {
+    color: black;
 }
